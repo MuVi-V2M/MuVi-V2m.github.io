@@ -68,7 +68,7 @@
     <h3>Video-to-Music Generation Results<a id="results" /></h3>
 
     <p style="margin-top: 2em">
-      In this section, we demonstrate the results of music generation given video conditions
+      In this section, we demonstrate the results of music generation given video conditions.
     </p>
 
 
@@ -94,25 +94,28 @@
       <video style="width: 49%;" controls>
           <source src="data/result/video/tom_and_jerry_02[150to170](0).mp4">
       </video> 
-      <video style="width: 49%;" controls>
+      <video style="width: 43.5%;" controls>
         <source src="data/result/video/looney_tunes[130to150](0).mp4">
       </video> 
 
       <p><br /></p>
 
       <h4>Music Generation for Silent Films</h4>
+      <video style="width: 47.61%;" controls>
+        <source src="data/result/video/charles_chaplin_boxing[620to640](0).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+        <source src="data/result/video/charles_chaplin[450to470](1).mp4">
+      </video> 
       <video style="width: 49%;" controls>
         <source src="data/result/video/charles_chaplin[50to70](2).mp4">
       </video> 
       <video style="width: 49%;" controls>
         <source src="data/result/video/charles_chaplin[370to390](3).mp4">
       </video> 
-      <video style="width: 49%;" controls>
+      <!-- <video style="width: 49%;" controls>
         <source src="data/result/video/charles_chaplin[170to190](0).mp4">
-      </video> 
-      <video style="width: 49%;" controls>
-        <source src="data/result/video/charles_chaplin[450to470](1).mp4">
-      </video> 
+      </video>  -->
 
       <p><br /></p>
   
@@ -126,10 +129,26 @@
 
       <p><br /></p>
 
-      <h4>Music Generation for Youtube Videos/Funny Compilations/Memes</h4>
+      <h4>Music Generation for CGs of Video Games</h4>
       <video style="width: 49%;" controls>
-        <source src="data/result/video/people_having_a_bad_day[220to240](0).mp4">
+        <source src="data/result/video/wukong[80to100](0).mp4">
       </video> 
+      <video style="width: 49%;" controls>
+        <source src="data/result/video/game_cg[20to40](0).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+        <source src="data/result/video/game_cg[80to100](6).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+        <source src="data/result/video/game_cg[540to560](1).mp4">
+      </video> 
+
+      <p><br /></p>
+
+      <h4>Music Generation for Youtube Videos/Funny Compilations/Memes</h4>
+      <!-- <video style="width: 49%;" controls>
+        <source src="data/result/video/people_having_a_bad_day[220to240](0).mp4">
+      </video>  -->
       <video style="width: 49%;" controls>
         <source src="data/result/video/people_having_a_bad_day[720to740](1).mp4">
       </video> 
@@ -139,12 +158,109 @@
       <video style="width: 49%;" controls>
         <source src="data/result/video/people_having_a_bad_day[760to780](2).mp4">
       </video> 
-      <video style="width: 49%;" controls>
+      <!-- <video style="width: 49%;" controls>
         <source src="data/result/video/人间倒霉时刻大赏_short[158to165](1).mp4">
-      </video> 
+      </video>  -->
       <video style="width: 49%;" controls>
         <source src="data/result/video/人间倒霉时刻大赏_short[165to172](2).mp4">
       </video> 
+
+    </div>
+
+  </div>
+
+  <div class="container shadow p-5 mb-5 bg-white rounded">
+    <h3>Video-to-Music Generation with In-context Learning<a id="icl" /></h3>
+
+    <p style="margin-top: 2em">
+      In this section, we demonstrate the in-context learning capability of MuVi, by providing music clips with different styles as prompts. </b>
+    </p>
+    <p>
+      The prompt audio clips are listed in front of the video samples. </b>
+    </p>
+    
+    <h4>Music Prompt: Piano</h4>
+    <audio style="width: 100%;" controls>
+      <source src="data/piano/prompt.wav">
+    </audio>
+    <div class="gallery">
+      <video style="width: 49%;" controls>
+          <source src="data/piano/video/people_having_a_bad_day[440to460](0).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/piano/video/people_having_a_bad_day[1180to1200](0).mp4">
+      </video> 
+      <video style="width: 43%;" controls>
+          <source src="data/piano/video/tom_and_jerry_01[250to270](4).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/piano/video/top_100_nba_players_of_2024[180to200](1).mp4">
+      </video> 
+    </div>
+    <p><br /></p>
+    <h4>Music Prompt: Electronic</h4>
+    <audio style="width: 100%;" controls>
+      <source src="data/edm/prompt.wav">
+    </audio>
+    <div class="gallery">
+      <video style="width: 34%;" controls>
+          <source src="data/edm/video/charles_chaplin_boxing[540to560](1).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/edm/video/top_100_nba_players_of_2024[100to120](1).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/edm/video/wukong[140to160](1).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/edm/video/introducing_sora[82to98](1).mp4">
+      </video> 
+    </div>
+    <p><br /></p>
+    <h4>Music Prompt: Rock</h4>
+    <audio style="width: 100%;" controls>
+      <source src="data/rock/prompt.wav">
+    </audio>
+    <div class="gallery">
+      <video style="width: 49%;" controls>
+        <source src="data/rock/video/tom_and_jerry_02[330to350](0).mp4">
+      </video> 
+      <video style="width: 39%;" controls>
+          <source src="data/rock/video/charles_chaplin_boxing[720to740](4).mp4">
+      </video> 
+      <video style="width: 47.5%;" controls>
+          <source src="data/rock/video/top_100_nba_players_of_2024[300to320](0).mp4">
+      </video> 
+      <video style="width: 49%;" controls>
+          <source src="data/rock/video/wukong[60to80](0).mp4">
+      </video> 
+    </div>
+
+  </div>
+
+  <div class="container shadow p-5 mb-5 bg-white rounded">
+    <h3>Visualization of Visual Adaptor's Attention<a id="attention" /></h3>
+
+    <p style="margin-top: 2em">
+      In this section, we visualize the visual adaptor's attention distribution. The yellower the patch, the more it is related to the generated music. We mask the video frames with the averaged attention scores. We transform the patches corresponding to the weights after applying Softmax into masks, and then adjust the colors of the masks accordingly. When the weights are smaller (close to 0.0), the mask appears bluer; conversely (close to 1.0), it appears yellower. This reflects the attention distribution of the adaptor.</b>
+    </p>
+    <div class="gallery">
+
+      <video style="width: 45%;" controls>
+        <source src="data/result/video_sw/tom_and_jerry_02[290to310](1).mp4">
+      </video> 
+      <video style="width: 45%;" controls>
+        <source src="data/result/video_sw/tom_and_jerry_02[150to170](0).mp4">
+      </video> 
+      <video style="width: 45%;" controls>
+          <source src="data/result/video_sw/charles_chaplin_boxing[620to640](0).mp4">
+      </video> 
+      <video style="width: 45%;" controls>
+          <source src="data/result/video_sw/people_having_a_bad_day[720to740](1).mp4">
+      </video> 
+      
+
+    </div>
 
   </div>
 
