@@ -172,7 +172,7 @@
 
   </div>
 
-  <div class="container shadow p-5 mb-5 bg-white rounded">
+  <!-- <div class="container shadow p-5 mb-5 bg-white rounded">
     <h3>Video-to-Music Generation with In-context Learning<a id="icl" /></h3>
 
     <p style="margin-top: 2em">
@@ -239,7 +239,64 @@
       </video> 
     </div>
 
+  </div> -->
+
+  <div class="container shadow p-5 mb-5 bg-white rounded">
+    <h3>Video-to-Music Generation with In-context Learning<a id="icl" /></h3>
+
+    <p style="margin-top: 2em">
+      In this section, we demonstrate the in-context learning capability of MuVi, by providing music clips with different styles as prompts. </b>
+    </p>
+    <div class="container pt-3 table-responsive">
+      <table class="table table-hover" id="gender_table_1">
+        <thead>
+          <tr>
+            <th style="text-align: center">Prompt Style</th>
+            <th style="text-align: center">Prompt Audio</th>
+            <th style="text-align: center">Samples</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr height=100px>
+            <td style="text-align: center">Piano</td>
+            <td style="text-align: center"><audio width="280" controls controlslist="nodownload" class="px-1"><source src="data/piano/prompt.wav" type="audio/mp3"></td>
+            <td style="text-align: center">
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/piano/video/people_having_a_bad_day[440to460](0).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/piano/video/people_having_a_bad_day[1180to1200](0).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/piano/video/tom_and_jerry_01[250to270](4).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/piano/video/top_100_nba_players_of_2024[180to200](1).mp4" type="video/mp4"></video>
+            </td>
+          </tr>
+          <tr height=100px>
+            <td style="text-align: center">Electronic</td>
+            <td style="text-align: center"><audio width="280" controls controlslist="nodownload" class="px-1"><source src="data/edm/prompt.wav" type="audio/mp3"></td>
+            <td style="text-align: center">
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/edm/video/charles_chaplin_boxing[540to560](1).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/edm/video/top_100_nba_players_of_2024[100to120](1).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/edm/video/wukong[140to160](1).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/edm/video/introducing_sora[82to98](1).mp4" type="video/mp4"></video>
+            </td>
+          </tr>
+          <tr height=100px>
+            <td style="text-align: center">Rock</td>
+            <td style="text-align: center"><audio width="280" controls controlslist="nodownload" class="px-1"><source src="data/rock/prompt.wav" type="audio/mp3"></td>
+            <td style="text-align: center">
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/rock/video/tom_and_jerry_02[330to350](0).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/rock/video/charles_chaplin_boxing[720to740](4).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/rock/video/top_100_nba_players_of_2024[300to320](0).mp4" type="video/mp4"></video>
+              <video width="280" controls controlslist="nodownload" class="px-1"><source src="data/rock/video/wukong[60to80](0).mp4" type="video/mp4"></video>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp</p>
+
+    </div>
+
   </div>
+
+
 
   <div class="container shadow p-5 mb-5 bg-white rounded">
     <h3>Visualization of Visual Adaptor's Attention<a id="attention" /></h3>
